@@ -59,9 +59,41 @@ counts.saveAsTextFile("hdfs://...")
 
 
 
-|                host|           timeStamp|                 url|httpCode|reqSize|
-|        199.72.81.55|01/Jul/1995:00:00...|    /history/apollo/|     200|   6245|
-|unicomp6.unicomp.net|01/Jul/1995:00:00...| /shuttle/countdown/|     200|   3985|
-|      199.120.110.21|01/Jul/1995:00:00...|/shuttle/missions...|     200|   4085|
-|  burger.letters.com|01/Jul/1995:00:00...|/shuttle/countdow...|     304|      0|
-|      199.120.110.21|01/Jul/1995:00:00...|/shuttle/missions...|     200|   4179|
+[Notebook Databricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/5522798005706053/2618432091235301/596744009780023/latest.html
+)
+
+1. Número de hosts únicos.
+137979
+
+2. O total de erros 404.
+20901
+3. Os 5 URLs que mais causaram erro 404.
+
+    |host                       |count|
+    |---------------------------|-----|
+    |hoohoo.ncsa.uiuc.edu       |251  |
+    |piweba3y.prodigy.com       |157  |
+    |jbiagioni.npt.nuwc.navy.mil|132  |
+    |piweba1y.prodigy.com       |114  |
+    |www-d4.proxy.aol.com       |91   |
+
+4. Quantidade de erros 404 por dia.
+
+    Tabela com alguns valores:
+    |data        |count|
+    |------------|-----|
+    |02/Jul/1995 |291  |
+    |21/Aug/1995 |305  |
+    |06/Aug/1995 |373  |
+    |16/Jul/1995 |257  |
+    |07/Aug/1995 |537  |
+    |11/Aug/1995 |263  |
+    |27/Jul/1995 |336  |
+    |07/Jul/1995 |570  |
+    |17/Jul/1995 |406  |
+    |15/Jul/1995 |254  |
+    |18/Jul/1995 |465  |
+
+5. O total de bytes retornados
+    65524314844 bytes
+    65,52 Gb
