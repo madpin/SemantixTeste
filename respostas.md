@@ -58,15 +58,18 @@ counts.saveAsTextFile("hdfs://...")
 ```
 
 
-
+### #. Questões
 [Notebook Databricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/5522798005706053/2618432091235301/596744009780023/latest.html
 )
 
 1. Número de hosts únicos.
-137979
+
+    137979
 
 2. O total de erros 404.
-20901
+
+    20901
+
 3. Os 5 URLs que mais causaram erro 404.
 
     |host                       |count|
@@ -80,7 +83,7 @@ counts.saveAsTextFile("hdfs://...")
 4. Quantidade de erros 404 por dia.
 
     Tabela com alguns valores:
-    
+
     |data        |count|
     |------------|-----|
     |02/Jul/1995 |291  |
@@ -96,5 +99,7 @@ counts.saveAsTextFile("hdfs://...")
     |18/Jul/1995 |465  |
 
 5. O total de bytes retornados
+
     65524314844 bytes
+    
     65,52 Gb
