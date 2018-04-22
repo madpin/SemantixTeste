@@ -80,6 +80,7 @@ counts.saveAsTextFile("hdfs://...")
 4. Quantidade de erros 404 por dia.
 
     Tabela com alguns valores:
+    
     |data        |count|
     |------------|-----|
     |02/Jul/1995 |291  |
